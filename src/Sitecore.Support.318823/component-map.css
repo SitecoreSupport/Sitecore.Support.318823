@@ -4,10 +4,11 @@
 }
 
 .map {
-  max-width: 100%;
-  overflow: hidden;
-  position: relative;
-  padding: 15px 15px 15px 15px;
+    /*fix issue #318823 by commenting out the line below*/
+    /*max-width: 100%;*/
+    overflow: hidden;
+    position: relative;
+    padding: 15px 15px 15px 15px;
 }
 
 .map > .component-content {
